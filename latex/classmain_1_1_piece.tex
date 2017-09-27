@@ -1,0 +1,88 @@
+\hypertarget{classmain_1_1_piece}{}\section{main.\+Piece Class Reference}
+\label{classmain_1_1_piece}\index{main.\+Piece@{main.\+Piece}}
+Inheritance diagram for main.\+Piece\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=9.000000cm]{classmain_1_1_piece}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmain_1_1_piece_a02a26b5661817cccd3f07d63349144f8}{Piece} (int player, \hyperlink{classmain_1_1_position}{Position} position, \hyperlink{classmain_1_1_board}{Board} board)
+\item 
+\mbox{\Hypertarget{classmain_1_1_piece_aa5b9e15c472cd58753a5b7db76666ed0}\label{classmain_1_1_piece_aa5b9e15c472cd58753a5b7db76666ed0}} 
+int {\bfseries get\+Player} ()
+\item 
+\mbox{\Hypertarget{classmain_1_1_piece_a609b995790e8ce5ac6150d43765f33e6}\label{classmain_1_1_piece_a609b995790e8ce5ac6150d43765f33e6}} 
+\hyperlink{classmain_1_1_position}{Position} {\bfseries get\+Position} ()
+\item 
+\mbox{\Hypertarget{classmain_1_1_piece_ac64b94e395aeccaa7775f64347008942}\label{classmain_1_1_piece_ac64b94e395aeccaa7775f64347008942}} 
+int {\bfseries get\+Row} ()
+\item 
+\mbox{\Hypertarget{classmain_1_1_piece_a8bd82e7f1f966d64d6ae71ea6a1b2866}\label{classmain_1_1_piece_a8bd82e7f1f966d64d6ae71ea6a1b2866}} 
+int {\bfseries get\+Col} ()
+\item 
+\mbox{\Hypertarget{classmain_1_1_piece_a4379392982c94b448a00c4a83f3d5552}\label{classmain_1_1_piece_a4379392982c94b448a00c4a83f3d5552}} 
+\hyperlink{classmain_1_1_board}{Board} {\bfseries get\+Board} ()
+\item 
+\mbox{\Hypertarget{classmain_1_1_piece_af64fbce8fc1e520849595a2e902f0db3}\label{classmain_1_1_piece_af64fbce8fc1e520849595a2e902f0db3}} 
+void {\bfseries set\+Player} (int player)
+\item 
+\mbox{\Hypertarget{classmain_1_1_piece_a1b2f7b9dc5c716c353937849d26d2def}\label{classmain_1_1_piece_a1b2f7b9dc5c716c353937849d26d2def}} 
+void {\bfseries set\+Board} (\hyperlink{classmain_1_1_board}{Board} board)
+\item 
+\mbox{\Hypertarget{classmain_1_1_piece_a25386672406846164d702a0dedb29eaf}\label{classmain_1_1_piece_a25386672406846164d702a0dedb29eaf}} 
+void {\bfseries set\+Position} (\hyperlink{classmain_1_1_position}{Position} position)
+\item 
+\mbox{\Hypertarget{classmain_1_1_piece_ae3d8f5049a959c98cc3e1c11fe071603}\label{classmain_1_1_piece_ae3d8f5049a959c98cc3e1c11fe071603}} 
+boolean {\bfseries out\+Of\+Bounds} (int x, int y)
+\item 
+boolean \hyperlink{classmain_1_1_piece_a9155e5be2c034abe7c87aa6c2410cdfb}{valid\+Move} (int x, int y, int xi, int yi)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmain_1_1_piece_a02a26b5661817cccd3f07d63349144f8}\label{classmain_1_1_piece_a02a26b5661817cccd3f07d63349144f8}} 
+\index{main\+::\+Piece@{main\+::\+Piece}!Piece@{Piece}}
+\index{Piece@{Piece}!main\+::\+Piece@{main\+::\+Piece}}
+\subsubsection{\texorpdfstring{Piece()}{Piece()}}
+{\footnotesize\ttfamily main.\+Piece.\+Piece (\begin{DoxyParamCaption}\item[{int}]{player,  }\item[{\hyperlink{classmain_1_1_position}{Position}}]{position,  }\item[{\hyperlink{classmain_1_1_board}{Board}}]{board }\end{DoxyParamCaption})}
+
+Constructor for the \hyperlink{classmain_1_1_piece}{Piece} class 
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+{\em position} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain_1_1_piece_a9155e5be2c034abe7c87aa6c2410cdfb}\label{classmain_1_1_piece_a9155e5be2c034abe7c87aa6c2410cdfb}} 
+\index{main\+::\+Piece@{main\+::\+Piece}!valid\+Move@{valid\+Move}}
+\index{valid\+Move@{valid\+Move}!main\+::\+Piece@{main\+::\+Piece}}
+\subsubsection{\texorpdfstring{valid\+Move()}{validMove()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+valid\+Move (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{xi,  }\item[{int}]{yi }\end{DoxyParamCaption})}
+
+Function that checks whether a specified position on the board is a valid position to move to 
+\begin{DoxyParams}{Parameters}
+{\em x} & position along the x axis of the desired position \\
+\hline
+{\em y} & position along the y axis of the desired position \\
+\hline
+{\em xi} & position along the x axis of the initial position \\
+\hline
+{\em yi} & position along the y axis of the initial position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false boolean whether the move is valid 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/Piece.\+java\end{DoxyCompactItemize}

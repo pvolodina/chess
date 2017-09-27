@@ -1,0 +1,137 @@
+\hypertarget{classmain_1_1_check}{}\section{main.\+Check Class Reference}
+\label{classmain_1_1_check}\index{main.\+Check@{main.\+Check}}
+Inheritance diagram for main.\+Check\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmain_1_1_check}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmain_1_1_check_ad50f8884f3ccd0b8dfd3b5f55f3ba08b}{Check} (boolean custom)
+\item 
+\hyperlink{classmain_1_1_piece}{Piece} \hyperlink{classmain_1_1_check_a4c11e37a69b51afe8318b6cd99bfbe19}{get\+King} (int player)
+\item 
+boolean \hyperlink{classmain_1_1_check_af22afdde9a99d951237d65b8a9d32535}{king\+Checked\+Diagonally} (\hyperlink{classmain_1_1_piece}{Piece} piece)
+\item 
+boolean \hyperlink{classmain_1_1_check_a5230cdb389e62d0afbff4b05af28aff0}{king\+Checked\+Linearly} (\hyperlink{classmain_1_1_piece}{Piece} piece)
+\item 
+\mbox{\Hypertarget{classmain_1_1_check_a38b5ebac39f0fcf08f1ade84fad2655c}\label{classmain_1_1_check_a38b5ebac39f0fcf08f1ade84fad2655c}} 
+boolean {\bfseries knight\+Position\+Check} (int x, int y, int player)
+\item 
+boolean \hyperlink{classmain_1_1_check_ad437a473d382218735067a8ba65dddc4}{king\+Checked\+By\+Knight} (\hyperlink{classmain_1_1_piece}{Piece} piece, int player)
+\item 
+boolean \hyperlink{classmain_1_1_check_abb80139bcdc002c32dd5e721c490d800}{is\+Checked} (int player)
+\item 
+boolean \hyperlink{classmain_1_1_check_a6a22c24f1a038324813439e17bc92390}{checkmate} ()
+\item 
+boolean \hyperlink{classmain_1_1_check_ac4c3ae82761a5bf3649785f8e97f29ce}{stalemate} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmain_1_1_check_ad50f8884f3ccd0b8dfd3b5f55f3ba08b}\label{classmain_1_1_check_ad50f8884f3ccd0b8dfd3b5f55f3ba08b}} 
+\index{main\+::\+Check@{main\+::\+Check}!Check@{Check}}
+\index{Check@{Check}!main\+::\+Check@{main\+::\+Check}}
+\subsubsection{\texorpdfstring{Check()}{Check()}}
+{\footnotesize\ttfamily main.\+Check.\+Check (\begin{DoxyParamCaption}\item[{boolean}]{custom }\end{DoxyParamCaption})}
+
+Constructor for the \hyperlink{classmain_1_1_check}{Check} class 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain_1_1_check_a6a22c24f1a038324813439e17bc92390}\label{classmain_1_1_check_a6a22c24f1a038324813439e17bc92390}} 
+\index{main\+::\+Check@{main\+::\+Check}!checkmate@{checkmate}}
+\index{checkmate@{checkmate}!main\+::\+Check@{main\+::\+Check}}
+\subsubsection{\texorpdfstring{checkmate()}{checkmate()}}
+{\footnotesize\ttfamily boolean main.\+Check.\+checkmate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function that checks if there is a checkmate within the game \begin{DoxyReturn}{Returns}
+end of the game, other player wins 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_check_a4c11e37a69b51afe8318b6cd99bfbe19}\label{classmain_1_1_check_a4c11e37a69b51afe8318b6cd99bfbe19}} 
+\index{main\+::\+Check@{main\+::\+Check}!get\+King@{get\+King}}
+\index{get\+King@{get\+King}!main\+::\+Check@{main\+::\+Check}}
+\subsubsection{\texorpdfstring{get\+King()}{getKing()}}
+{\footnotesize\ttfamily \hyperlink{classmain_1_1_piece}{Piece} main.\+Check.\+get\+King (\begin{DoxyParamCaption}\item[{int}]{player }\end{DoxyParamCaption})}
+
+Function that returns the player\textquotesingle{}s \hyperlink{classmain_1_1_king}{King} piece, and removes the piece from the board 
+\begin{DoxyParams}{Parameters}
+{\em player} & the player/owner of the \hyperlink{classmain_1_1_king}{King} piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the \hyperlink{classmain_1_1_king}{King} piece, determines the end of the game 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_check_abb80139bcdc002c32dd5e721c490d800}\label{classmain_1_1_check_abb80139bcdc002c32dd5e721c490d800}} 
+\index{main\+::\+Check@{main\+::\+Check}!is\+Checked@{is\+Checked}}
+\index{is\+Checked@{is\+Checked}!main\+::\+Check@{main\+::\+Check}}
+\subsubsection{\texorpdfstring{is\+Checked()}{isChecked()}}
+{\footnotesize\ttfamily boolean main.\+Check.\+is\+Checked (\begin{DoxyParamCaption}\item[{int}]{player }\end{DoxyParamCaption})}
+
+Function that checks whether the \hyperlink{classmain_1_1_king}{King} is checked 
+\begin{DoxyParams}{Parameters}
+{\em player} & the player/owner of the \hyperlink{classmain_1_1_king}{King} piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_check_ad437a473d382218735067a8ba65dddc4}\label{classmain_1_1_check_ad437a473d382218735067a8ba65dddc4}} 
+\index{main\+::\+Check@{main\+::\+Check}!king\+Checked\+By\+Knight@{king\+Checked\+By\+Knight}}
+\index{king\+Checked\+By\+Knight@{king\+Checked\+By\+Knight}!main\+::\+Check@{main\+::\+Check}}
+\subsubsection{\texorpdfstring{king\+Checked\+By\+Knight()}{kingCheckedByKnight()}}
+{\footnotesize\ttfamily boolean main.\+Check.\+king\+Checked\+By\+Knight (\begin{DoxyParamCaption}\item[{\hyperlink{classmain_1_1_piece}{Piece}}]{piece,  }\item[{int}]{player }\end{DoxyParamCaption})}
+
+Function that checks whether the \hyperlink{classmain_1_1_king}{King} piece is in check by a \hyperlink{classmain_1_1_knight}{Knight} piece 
+\begin{DoxyParams}{Parameters}
+{\em piece} & the \hyperlink{classmain_1_1_knight}{Knight} piece of the other player \\
+\hline
+{\em player} & the other player that isn\textquotesingle{}t the owner of the \hyperlink{classmain_1_1_king}{King} piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false boolean whether the \hyperlink{classmain_1_1_king}{King} is in check 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_check_af22afdde9a99d951237d65b8a9d32535}\label{classmain_1_1_check_af22afdde9a99d951237d65b8a9d32535}} 
+\index{main\+::\+Check@{main\+::\+Check}!king\+Checked\+Diagonally@{king\+Checked\+Diagonally}}
+\index{king\+Checked\+Diagonally@{king\+Checked\+Diagonally}!main\+::\+Check@{main\+::\+Check}}
+\subsubsection{\texorpdfstring{king\+Checked\+Diagonally()}{kingCheckedDiagonally()}}
+{\footnotesize\ttfamily boolean main.\+Check.\+king\+Checked\+Diagonally (\begin{DoxyParamCaption}\item[{\hyperlink{classmain_1_1_piece}{Piece}}]{piece }\end{DoxyParamCaption})}
+
+Function that checks whether the \hyperlink{classmain_1_1_king}{King} piece is in check diagonally 
+\begin{DoxyParams}{Parameters}
+{\em piece} & the \hyperlink{classmain_1_1_king}{King} piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false boolean whether the \hyperlink{classmain_1_1_king}{King} is in check 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_check_a5230cdb389e62d0afbff4b05af28aff0}\label{classmain_1_1_check_a5230cdb389e62d0afbff4b05af28aff0}} 
+\index{main\+::\+Check@{main\+::\+Check}!king\+Checked\+Linearly@{king\+Checked\+Linearly}}
+\index{king\+Checked\+Linearly@{king\+Checked\+Linearly}!main\+::\+Check@{main\+::\+Check}}
+\subsubsection{\texorpdfstring{king\+Checked\+Linearly()}{kingCheckedLinearly()}}
+{\footnotesize\ttfamily boolean main.\+Check.\+king\+Checked\+Linearly (\begin{DoxyParamCaption}\item[{\hyperlink{classmain_1_1_piece}{Piece}}]{piece }\end{DoxyParamCaption})}
+
+Function that checks whether the \hyperlink{classmain_1_1_king}{King} piece is in check linearly 
+\begin{DoxyParams}{Parameters}
+{\em piece} & the \hyperlink{classmain_1_1_king}{King} piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false boolean whether the \hyperlink{classmain_1_1_king}{King} is in check 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_check_ac4c3ae82761a5bf3649785f8e97f29ce}\label{classmain_1_1_check_ac4c3ae82761a5bf3649785f8e97f29ce}} 
+\index{main\+::\+Check@{main\+::\+Check}!stalemate@{stalemate}}
+\index{stalemate@{stalemate}!main\+::\+Check@{main\+::\+Check}}
+\subsubsection{\texorpdfstring{stalemate()}{stalemate()}}
+{\footnotesize\ttfamily boolean main.\+Check.\+stalemate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function that checks if there is a stalemate within the game \begin{DoxyReturn}{Returns}
+end of the game, draw 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/Check.\+java\end{DoxyCompactItemize}

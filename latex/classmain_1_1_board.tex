@@ -1,0 +1,188 @@
+\hypertarget{classmain_1_1_board}{}\section{main.\+Board Class Reference}
+\label{classmain_1_1_board}\index{main.\+Board@{main.\+Board}}
+Inheritance diagram for main.\+Board\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmain_1_1_board}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmain_1_1_board_ac64a3f3f09655e7a7c8d357571a0cdf9}{Board} ()
+\item 
+int \hyperlink{classmain_1_1_board_aabe840fa797394de39d654669f1a13e3}{get\+Row\+Size} ()
+\item 
+int \hyperlink{classmain_1_1_board_ad54aaad9c4592f90902c9176178479f4}{get\+Col\+Size} ()
+\item 
+\hyperlink{classmain_1_1_piece}{Piece} \hyperlink{classmain_1_1_board_ab7453028b7be41317754865bd98e7c27}{get\+Piece} (int x, int y)
+\item 
+\mbox{\Hypertarget{classmain_1_1_board_a3251505af2aca3cba6f42d187c2dedd5}\label{classmain_1_1_board_a3251505af2aca3cba6f42d187c2dedd5}} 
+\hyperlink{classmain_1_1_piece}{Piece} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} {\bfseries get\+Board} ()
+\item 
+void \hyperlink{classmain_1_1_board_ae50e0afff7effa41b09eb9966983e369}{add\+Piece} (\hyperlink{classmain_1_1_piece}{Piece} piece)
+\item 
+void \hyperlink{classmain_1_1_board_a3a4955259c7cf7ad67524f8da986d23b}{move\+Piece} (\hyperlink{classmain_1_1_piece}{Piece} piece, \hyperlink{classmain_1_1_position}{Position} p)
+\item 
+void \hyperlink{classmain_1_1_board_abc2d60f853b5da298d709637546758f8}{remove\+Piece} (\hyperlink{classmain_1_1_piece}{Piece} piece)
+\item 
+boolean \hyperlink{classmain_1_1_board_a13d0c13bb4ac27d6f7f6c7695eb2fb3e}{check\+Diagonal\+Move} (\hyperlink{classmain_1_1_piece}{Piece} piece, int x, int y)
+\item 
+\mbox{\Hypertarget{classmain_1_1_board_afc7aebf0d29dce28ea6b358cc77f8638}\label{classmain_1_1_board_afc7aebf0d29dce28ea6b358cc77f8638}} 
+boolean {\bfseries check\+In\+Line\+Move\+Helper} (int curra, int currb, int a, int b)
+\item 
+boolean \hyperlink{classmain_1_1_board_a41d11b3b542eaa65607bc50c0a8ab6b4}{check\+In\+Line\+Move} (\hyperlink{classmain_1_1_piece}{Piece} piece, int x, int y)
+\item 
+\mbox{\Hypertarget{classmain_1_1_board_a5e439108a532952162da1d08560dd260}\label{classmain_1_1_board_a5e439108a532952162da1d08560dd260}} 
+void {\bfseries set\+Pawns} (\hyperlink{classmain_1_1_board}{Board} board, boolean custom)
+\item 
+\mbox{\Hypertarget{classmain_1_1_board_a3295974eeb0e6fe02673aaf43a6c2709}\label{classmain_1_1_board_a3295974eeb0e6fe02673aaf43a6c2709}} 
+void {\bfseries set\+Bishops} (\hyperlink{classmain_1_1_board}{Board} board)
+\item 
+\mbox{\Hypertarget{classmain_1_1_board_a3f25d1c4cf5a1140b7b3e38d9a50b737}\label{classmain_1_1_board_a3f25d1c4cf5a1140b7b3e38d9a50b737}} 
+void {\bfseries set\+Kings} (\hyperlink{classmain_1_1_board}{Board} board)
+\item 
+\mbox{\Hypertarget{classmain_1_1_board_ae8f371f340211e79784f066eeea57053}\label{classmain_1_1_board_ae8f371f340211e79784f066eeea57053}} 
+void {\bfseries set\+Knights} (\hyperlink{classmain_1_1_board}{Board} board)
+\item 
+\mbox{\Hypertarget{classmain_1_1_board_a74ea62c7573eaf06b0d59ea9f258184b}\label{classmain_1_1_board_a74ea62c7573eaf06b0d59ea9f258184b}} 
+void {\bfseries set\+Queens} (\hyperlink{classmain_1_1_board}{Board} board)
+\item 
+\mbox{\Hypertarget{classmain_1_1_board_a56f872c4ad1d69c733e6c31662f1af1f}\label{classmain_1_1_board_a56f872c4ad1d69c733e6c31662f1af1f}} 
+void {\bfseries set\+Rooks} (\hyperlink{classmain_1_1_board}{Board} board)
+\item 
+void \hyperlink{classmain_1_1_board_abc9e551a462c7fec722d11e5f3728c23}{init\+Pieces} (\hyperlink{classmain_1_1_board}{Board} board, boolean custom)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmain_1_1_board_ac64a3f3f09655e7a7c8d357571a0cdf9}\label{classmain_1_1_board_ac64a3f3f09655e7a7c8d357571a0cdf9}} 
+\index{main\+::\+Board@{main\+::\+Board}!Board@{Board}}
+\index{Board@{Board}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{Board()}{Board()}}
+{\footnotesize\ttfamily main.\+Board.\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor for the game board, initializes all position on the board to null 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain_1_1_board_ae50e0afff7effa41b09eb9966983e369}\label{classmain_1_1_board_ae50e0afff7effa41b09eb9966983e369}} 
+\index{main\+::\+Board@{main\+::\+Board}!add\+Piece@{add\+Piece}}
+\index{add\+Piece@{add\+Piece}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{add\+Piece()}{addPiece()}}
+{\footnotesize\ttfamily void main.\+Board.\+add\+Piece (\begin{DoxyParamCaption}\item[{\hyperlink{classmain_1_1_piece}{Piece}}]{piece }\end{DoxyParamCaption})}
+
+Function that initializes a piece in its position 
+\begin{DoxyParams}{Parameters}
+{\em piece} & the desired piece to position \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmain_1_1_board_a13d0c13bb4ac27d6f7f6c7695eb2fb3e}\label{classmain_1_1_board_a13d0c13bb4ac27d6f7f6c7695eb2fb3e}} 
+\index{main\+::\+Board@{main\+::\+Board}!check\+Diagonal\+Move@{check\+Diagonal\+Move}}
+\index{check\+Diagonal\+Move@{check\+Diagonal\+Move}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{check\+Diagonal\+Move()}{checkDiagonalMove()}}
+{\footnotesize\ttfamily boolean main.\+Board.\+check\+Diagonal\+Move (\begin{DoxyParamCaption}\item[{\hyperlink{classmain_1_1_piece}{Piece}}]{piece,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Function that checks if a diagonal move of a position is valid by checking all positions along the diagonal and seeing if there is any other pieces on the board 
+\begin{DoxyParams}{Parameters}
+{\em piece} & the piece to check the diagonal from \\
+\hline
+{\em x} & the position on the x axis of the desired new position \\
+\hline
+{\em y} & the position on the y axis of the desired new position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false boolean whether the move is valid 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_board_a41d11b3b542eaa65607bc50c0a8ab6b4}\label{classmain_1_1_board_a41d11b3b542eaa65607bc50c0a8ab6b4}} 
+\index{main\+::\+Board@{main\+::\+Board}!check\+In\+Line\+Move@{check\+In\+Line\+Move}}
+\index{check\+In\+Line\+Move@{check\+In\+Line\+Move}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{check\+In\+Line\+Move()}{checkInLineMove()}}
+{\footnotesize\ttfamily boolean main.\+Board.\+check\+In\+Line\+Move (\begin{DoxyParamCaption}\item[{\hyperlink{classmain_1_1_piece}{Piece}}]{piece,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Function that checks if an inline move of a piece is valid by checking all positions along the line and seeing if there is any other pieces on the board 
+\begin{DoxyParams}{Parameters}
+{\em piece} & the piece to check the in-\/line from \\
+\hline
+{\em x} & the position on the x axis of the desired new position \\
+\hline
+{\em y} & the position on the y axis of the desired new position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false boolean whether the move is valid 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_board_ad54aaad9c4592f90902c9176178479f4}\label{classmain_1_1_board_ad54aaad9c4592f90902c9176178479f4}} 
+\index{main\+::\+Board@{main\+::\+Board}!get\+Col\+Size@{get\+Col\+Size}}
+\index{get\+Col\+Size@{get\+Col\+Size}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{get\+Col\+Size()}{getColSize()}}
+{\footnotesize\ttfamily int main.\+Board.\+get\+Col\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+The amount of positions per column \begin{DoxyReturn}{Returns}
+column size 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_board_ab7453028b7be41317754865bd98e7c27}\label{classmain_1_1_board_ab7453028b7be41317754865bd98e7c27}} 
+\index{main\+::\+Board@{main\+::\+Board}!get\+Piece@{get\+Piece}}
+\index{get\+Piece@{get\+Piece}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{get\+Piece()}{getPiece()}}
+{\footnotesize\ttfamily \hyperlink{classmain_1_1_piece}{Piece} main.\+Board.\+get\+Piece (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Function for getting a piece at a specified position on the board 
+\begin{DoxyParams}{Parameters}
+{\em x} & position on the x axis \\
+\hline
+{\em y} & position on the y axis \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the piece at the position, or null if there isn\textquotesingle{}t a piece there 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_board_aabe840fa797394de39d654669f1a13e3}\label{classmain_1_1_board_aabe840fa797394de39d654669f1a13e3}} 
+\index{main\+::\+Board@{main\+::\+Board}!get\+Row\+Size@{get\+Row\+Size}}
+\index{get\+Row\+Size@{get\+Row\+Size}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{get\+Row\+Size()}{getRowSize()}}
+{\footnotesize\ttfamily int main.\+Board.\+get\+Row\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+The amount of positions per row \begin{DoxyReturn}{Returns}
+row size 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_board_abc9e551a462c7fec722d11e5f3728c23}\label{classmain_1_1_board_abc9e551a462c7fec722d11e5f3728c23}} 
+\index{main\+::\+Board@{main\+::\+Board}!init\+Pieces@{init\+Pieces}}
+\index{init\+Pieces@{init\+Pieces}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{init\+Pieces()}{initPieces()}}
+{\footnotesize\ttfamily void main.\+Board.\+init\+Pieces (\begin{DoxyParamCaption}\item[{\hyperlink{classmain_1_1_board}{Board}}]{board,  }\item[{boolean}]{custom }\end{DoxyParamCaption})}
+
+Initializer function that sets up the chess game board with all the pieces 
+\begin{DoxyParams}{Parameters}
+{\em board} & the game board to initialize \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmain_1_1_board_a3a4955259c7cf7ad67524f8da986d23b}\label{classmain_1_1_board_a3a4955259c7cf7ad67524f8da986d23b}} 
+\index{main\+::\+Board@{main\+::\+Board}!move\+Piece@{move\+Piece}}
+\index{move\+Piece@{move\+Piece}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{move\+Piece()}{movePiece()}}
+{\footnotesize\ttfamily void main.\+Board.\+move\+Piece (\begin{DoxyParamCaption}\item[{\hyperlink{classmain_1_1_piece}{Piece}}]{piece,  }\item[{\hyperlink{classmain_1_1_position}{Position}}]{p }\end{DoxyParamCaption})}
+
+Function that moves the desired piece to a specified position 
+\begin{DoxyParams}{Parameters}
+{\em piece} & the piece to move \\
+\hline
+{\em p} & the desired position \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmain_1_1_board_abc2d60f853b5da298d709637546758f8}\label{classmain_1_1_board_abc2d60f853b5da298d709637546758f8}} 
+\index{main\+::\+Board@{main\+::\+Board}!remove\+Piece@{remove\+Piece}}
+\index{remove\+Piece@{remove\+Piece}!main\+::\+Board@{main\+::\+Board}}
+\subsubsection{\texorpdfstring{remove\+Piece()}{removePiece()}}
+{\footnotesize\ttfamily void main.\+Board.\+remove\+Piece (\begin{DoxyParamCaption}\item[{\hyperlink{classmain_1_1_piece}{Piece}}]{piece }\end{DoxyParamCaption})}
+
+Function that removes the piece from the board 
+\begin{DoxyParams}{Parameters}
+{\em piece} & the piece to remove \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/Board.\+java\end{DoxyCompactItemize}

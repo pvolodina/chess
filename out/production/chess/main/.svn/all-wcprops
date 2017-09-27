@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main
+END
+Check.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/Check.class
+END
+Queen.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/Queen.class
+END
+Bishop.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/Bishop.class
+END
+Knight.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/Knight.class
+END
+Position.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/Position.class
+END
+Pawn.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/Pawn.class
+END
+Piece.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/Piece.class
+END
+Board.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/Board.class
+END
+King.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/King.class
+END
+Rook.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/out/production/chess/main/Rook.class
+END

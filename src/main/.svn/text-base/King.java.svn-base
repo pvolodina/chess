@@ -1,0 +1,25 @@
+package main;
+
+public class King extends Piece {
+
+    public King(int player, Position position, Board board) {
+        super(player, position, board);
+    }
+
+    public boolean canMoveTo(int x, int y) {
+        // get current position
+        int currx = this.getPosition().getRow();
+        int curry = this.getPosition().getCol();
+
+        // check if desired position is out of bounds or
+        if (!validMove(x, y, currx, curry)) {
+            return false;
+        }
+
+        // valid move for a king
+        int diffx = Math.abs(currx - x);
+        int diffy = Math.abs(curry - y);
+
+        return (diffx < 2 && diffy < 2);
+    }
+}

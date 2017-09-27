@@ -1,0 +1,73 @@
+package main;
+
+public abstract class Piece {
+
+    // private variables that identify a chess piece
+    private int player;
+    private Position position;
+    private Board board;
+
+    // Piece function
+    public Piece(int player, Position position, Board board) {
+        this.player   = player;
+        this.position = position;
+        this.board    = board;
+    }
+
+    // get functions
+    public int getPlayer() {
+        return player;
+    }
+
+    public Position getPosition() {
+        return position;
+    }
+
+    public Board getBoard() {
+        return board;
+    }
+
+    // set functions
+    public void setPlayer(int player) {
+        this.player = player;
+    }
+
+    public void setBoard(Board board) {
+        this.board = board;
+    }
+
+    public void setPosition(Position position) {
+        this.position = position;
+    }
+
+    // function to check out of bounds movement
+    public boolean outOfBounds(int x, int y) {
+        // check if position inputs are negative numbers
+        if (x < 0 || y < 0) {
+            return true;
+        }
+
+        // check if position inputs go out of scope of board size
+        if (x > 7 || y > 7) {
+            return true;
+        }
+
+        return false;
+    }
+
+    // check if desired move is valid
+    public boolean validMove(int x, int y, int xi, int yi) {
+        // check if desired move is out of bounds
+        if (outOfBounds(x, y)) {
+            return false;
+        }
+
+        // check if desired move changed position
+        if (x == xi && y == yi) {
+            return false;
+        }
+
+        return true;
+    }
+
+}

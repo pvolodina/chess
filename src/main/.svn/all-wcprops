@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/src/main
+END
+Piece.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/src/main/Piece.java
+END
+Bishop.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/src/main/Bishop.java
+END
+Knight.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/src/main/Knight.java
+END
+Queen.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/src/main/Queen.java
+END
+Position.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/src/main/Position.java
+END
+Rook.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/src/main/Rook.java
+END
+Pawn.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/fa17-cs242/!svn/ver/5668/volodin2/Assignment1.0/src/main/Pawn.java
+END
+Check.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fa17-cs242/!svn/ver/5695/volodin2/Assignment1.0/src/main/Check.java
+END
+King.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/fa17-cs242/!svn/ver/5578/volodin2/Assignment1.0/src/main/King.java
+END
+Board.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fa17-cs242/!svn/ver/5693/volodin2/Assignment1.0/src/main/Board.java
+END

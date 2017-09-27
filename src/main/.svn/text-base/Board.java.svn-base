@@ -1,0 +1,204 @@
+package main;
+import main.*;
+
+public class Board {
+
+    private Piece [] [] cboard;
+    private int rowSize = 8;
+    private int colSize = 8;
+
+    public Board() {
+        cboard = new Piece [rowSize][colSize];
+
+        for(int i = 0; i < rowSize; i++){
+            for(int j = 0; j < colSize; j++){
+                cboard[i][j] = null;
+            }
+        }
+    }
+
+    public int getRowSize() {
+        return rowSize;
+    }
+
+    public int getColSize() {
+        return colSize;
+    }
+
+    public Piece getPiece(int x, int y) {
+        // check out of bound
+        if (x < 0 || x > 7 || y < 0 || y > 7) {
+            return null;
+        }
+        return cboard[x][y];
+    }
+
+    public Piece [][] getBoard() {
+        return cboard;
+    }
+
+    public void addPiece(Piece piece) {
+        int px = piece.getPosition().getRow();
+        int py = piece.getPosition().getCol();
+        cboard[px][py] = piece;
+    }
+
+    public void movePiece(Piece piece, Position p) {
+        int x = piece.getPosition().getRow();
+        int y = piece.getPosition().getCol();
+        int px = p.getRow();
+        int py = p.getCol();
+
+        // check if the piece can move
+        if (piece.validMove(x, y, px, py)) {
+            // pick up the piece you want to move
+            removePiece(piece);
+
+            // if there is another piece in the destination, remove it
+            if (cboard[px][py] != null) {
+                removePiece(cboard[px][py]);
+            }
+            addPiece(piece);
+            piece.setPosition(p);
+        }
+    }
+
+    public void removePiece(Piece piece) {
+        int px = piece.getPosition().getRow();
+        int py = piece.getPosition().getCol();
+        if (cboard[px][py] != null) {
+            piece.setPosition(null);
+            cboard[px][py] = null;
+        }
+    }
+
+    public boolean checkDiagonalMove(Piece piece, int x, int y) {
+        int currx = piece.getPosition().getRow();
+        int curry = piece.getPosition().getCol();
+
+        // check if the move is actually diagonal
+        int diffx = Math.abs(currx - x);
+        int diffy = Math.abs(curry - y);
+
+        if ((diffx != diffy) || diffx == 0) {
+            // should not get here
+            return false;
+        }
+
+        // get direction of diagonal
+        int dirx = (currx - x)/diffx;
+        int diry = (curry - y)/diffy;
+        int steps = diffx;
+
+        // check for pieces along diagonal
+        for (int i = 1; i < steps; i++) {
+            int nextx = (dirx * i) + x;
+            int nexty = (diry * i) + y;
+            if (cboard[nextx][nexty] != null) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+    
+    public boolean checkInLineMoveHelper(int curra, int currb, int a, int b) {
+        int diffa = Math.abs(curra - a);
+        int diffb = Math.abs(currb - b);
+
+        if (diffa == 0) {
+            int diry = (currb - b)/diffb;
+            for (int i = 1; i < diffb; i++) {
+                int nextb = (diry * i) + b;
+                if (cboard[a][nextb] != null) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        return false;
+    }
+
+    public boolean checkInLineMove(Piece piece, int x, int y) {
+        int currx = piece.getPosition().getRow();
+        int curry = piece.getPosition().getCol();
+
+        // check if the move is actually in line
+        int diffx = Math.abs(currx - x);
+        int diffy = Math.abs(curry - y);
+
+        if (diffx == 0 && diffy == 0) { return false; }
+
+        if (checkInLineMoveHelper(currx, curry, x, y)) { return false; }
+        
+        if (checkInLineMoveHelper(curry, currx, y, x)) { return false; }
+
+        return true;
+    }
+
+    public void setPawns(Board board) {
+        for (int i = 0; i < getRowSize(); i++) {
+            Pawn pawn1 = new Pawn(1, new Position(1, i), board);
+            Pawn pawn2 = new Pawn(2, new Position(6, i), board);
+            board.addPiece(pawn1);
+            board.addPiece(pawn2);
+        }
+    }
+
+    public void setBishops(Board board) {
+        Bishop bishop1 = new Bishop(1, new Position(0, 2), board);
+        Bishop bishop2 = new Bishop(1, new Position(0, 5), board);
+        Bishop bishop3 = new Bishop(2, new Position(7, 2), board);
+        Bishop bishop4 = new Bishop(2, new Position(7, 5), board);
+        board.addPiece(bishop1);
+        board.addPiece(bishop2);
+        board.addPiece(bishop3);
+        board.addPiece(bishop4);
+    }
+
+    public void setKings(Board board) {
+        King king1 = new King(1, new Position(0, 4), board);
+        King king2 = new King(2, new Position(7, 3), board);
+        board.addPiece(king1);
+        board.addPiece(king2);
+    }
+
+    public void setKnights(Board board) {
+        Knight knight1 = new Knight(1, new Position(0, 1), board);
+        Knight knight2 = new Knight(1, new Position(0, 6), board);
+        Knight knight3 = new Knight(2, new Position(7, 1), board);
+        Knight knight4 = new Knight(2, new Position(7, 6), board);
+        board.addPiece(knight1);
+        board.addPiece(knight2);
+        board.addPiece(knight3);
+        board.addPiece(knight4);
+    }
+
+    public void setQueens(Board board) {
+        Queen queen1 = new Queen(1, new Position(0, 3), board);
+        Queen queen2 = new Queen(2, new Position(7, 4), board);
+        board.addPiece(queen1);
+        board.addPiece(queen2);
+    }
+
+    public void setRooks(Board board) {
+        Rook rook1 = new Rook(1, new Position(0, 0), board);
+        Rook rook2 = new Rook(1, new Position(0, 7), board);
+        Rook rook3 = new Rook(2, new Position(7, 0), board);
+        Rook rook4 = new Rook(2, new Position(7, 7), board);
+        board.addPiece(rook1);
+        board.addPiece(rook2);
+        board.addPiece(rook3);
+        board.addPiece(rook4);
+    }
+
+    public void initPieces(Board board) {
+        setBishops(board);
+        setKings(board);
+        setKnights(board);
+        setPawns(board);
+        setQueens(board);
+        setRooks(board);
+    }
+
+}

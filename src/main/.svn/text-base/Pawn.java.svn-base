@@ -1,0 +1,45 @@
+package main;
+
+public class Pawn extends Piece {
+
+    private boolean firstMove = true;
+    public Pawn(int player, Position position, Board board) {
+        super(player, position, board);
+    }
+
+    public boolean canMoveTo(int x, int y) {
+        // get current position
+        int currx = this.getPosition().getRow();
+        int curry = this.getPosition().getCol();
+
+        // check if desired position is out of bounds or
+        if (!validMove(x, y, currx, curry)) {
+            return false;
+        }
+
+        // valid move for a pawn
+        int diffx = Math.abs(currx - x);
+        int diffy = Math.abs(curry - y);
+
+        // if they are attacking
+        Board board = getBoard();
+        if (board.getPiece(x, y) != null) {
+            return (diffx == 1 && diffy == 1);
+        }
+
+        // if they are moving along y axis
+        if (diffy != 0) {
+            return false;
+        }
+        if (diffx > 2) {
+            return false;
+        }
+
+        // check if it's the first move
+        if (firstMove) {
+            firstMove = false;
+            return ((diffx == 2) || (diffx == 1));
+        }
+        return (diffx == 1);
+    }
+}
