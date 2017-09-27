@@ -1,217 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="3725510e-d76d-404c-9136-f858b6a254de" name="Default" comment="added TODO's">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/bc_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/bdwn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_bishop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_board.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_king.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_knight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_pawn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_piece.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_queen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_rook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_special_beep.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_special_boop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/closed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/doc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/doxygen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/folderclosed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/folderopen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/nav_f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/nav_g.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/nav_h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/mag_sel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/search_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/search_m.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/search_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/splitbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/sync_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/sync_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/tab_a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/tab_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/tab_h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/tab_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/annotated.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/class_g_u_i_1_1_game-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/class_g_u_i_1_1_game.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/class_g_u_i_1_1_pieces-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/class_g_u_i_1_1_pieces.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/class_main-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/class_main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_bishop-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_bishop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_board-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_board.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_check-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_check.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_king-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_king.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_knight-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_knight.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_pawn-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_pawn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_piece-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_piece.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_position-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_position.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_queen-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_queen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_rook-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_rook.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_special_beep-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_special_beep.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_special_boop-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classmain_1_1_special_boop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_bishop_test-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_bishop_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_board_test-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_board_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_check_test-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_check_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_king_test-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_king_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_knight_test-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_knight_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_pawn_test-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_pawn_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_queen_test-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_queen_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_rook_test-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/classtest_1_1_rook_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dir_120ed4da3e3217b1e7fc0b4f48568e79.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dir_4e4e2e75df7fa6971448b424c011c8b5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dir_5eb159725f84c66aafd839904a4acdd0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/doxygen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dynsections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/functions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/functions_func.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/hierarchy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/menudata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/all_b.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/classes_8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/functions_b.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/nomatches.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/search.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/search/searchdata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/annotated.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/class_g_u_i_1_1_game.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/class_g_u_i_1_1_pieces.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/class_main.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_bishop.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_bishop.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_board.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_board.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_check.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_check.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_king.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_king.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_knight.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_knight.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_pawn.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_pawn.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_piece.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_piece.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_position.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_queen.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_queen.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_rook.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_rook.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_special_beep.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_special_beep.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_special_boop.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classmain_1_1_special_boop.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classtest_1_1_bishop_test.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classtest_1_1_board_test.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classtest_1_1_check_test.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classtest_1_1_king_test.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classtest_1_1_knight_test.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classtest_1_1_pawn_test.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classtest_1_1_queen_test.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/classtest_1_1_rook_test.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/dir_120ed4da3e3217b1e7fc0b4f48568e79.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/dir_4e4e2e75df7fa6971448b424c011c8b5.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/dir_5eb159725f84c66aafd839904a4acdd0.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/dir_68267d1309a1af8e8297ef4c3efbcdba.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/doxygen.sty" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/hierarchy.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latex/refman.tex" />
-    </list>
+    <list default="true" readonly="true" id="3725510e-d76d-404c-9136-f858b6a254de" name="Default" comment="added TODO's" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -650,7 +440,7 @@
       <workItem from="1505888597538" duration="5459000" />
       <workItem from="1506012080627" duration="324000" />
       <workItem from="1506016321154" duration="278000" />
-      <workItem from="1506453294852" duration="19800000" />
+      <workItem from="1506453294852" duration="19886000" />
     </task>
     <task id="LOCAL-00001" summary="added checkmate and stalemate tests">
       <created>1505921863113</created>
@@ -730,7 +520,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51941000" />
+    <option name="totallyTimeSpent" value="52027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
